@@ -11,7 +11,7 @@ const Search = () => {
                     언제든 일주일
                 </div>
                 <div className="text-sm pl-6 pr-2 text-gray-600 flex flex-row items-center gap-3">
-                    <div className="hideen sm:block">게스트 추가</div>
+                    <div className="hidden sm:block">게스트 추가</div>
                     <div className="p-2 bg-rose-500 rounded-full text-white">
                         <BiSearch size={18} />
                     </div>
