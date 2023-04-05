@@ -1,6 +1,7 @@
 import { Nunito } from "next/font/google";
 
 import "./globals.css";
+import Navbar from "./components/navbar/Navbar";
 
 export const metadata = {
     title: "여행은 떠나는 거야 - 에어비엔비",
