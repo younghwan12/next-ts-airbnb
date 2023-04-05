@@ -3,7 +3,7 @@ import { Nunito } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import ClientOnly from "./components/ClientOnly";
-import Modal from "./components/modals/Modal";
+import RegisterModal from "./components/modals/RegisterModal";
 
 export const metadata = {
     title: "여행은 떠나는 거야 - 에어비엔비",
@@ -23,7 +23,7 @@ export default function RootLayout({
         <html lang="ko">
             <body className={font.className}>
                 <ClientOnly>
-                    <Modal actionLabel="Submit" title="Hello World" isOpen />
+                    <RegisterModal />
                     <Navbar />
                 </ClientOnly>
                 {children}
